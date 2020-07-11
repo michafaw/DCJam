@@ -6,7 +6,9 @@
     "children": [
         "70822cc9-b988-4c65-9a85-6557f3922def",
         "ae83423d-7527-4b01-bcc7-548ed1bd4252",
-        "749f17a8-a427-4274-8a80-1b99981e93ed"
+        "0d873af1-6f03-4131-a01c-6e912c0c6cf6",
+        "7af910a8-bd3a-4e3c-add9-197cb80052ad",
+        "7f7f4b34-0e6b-4bc5-a83a-f070286d4766"
     ],
     "filterType": "GMSprite",
     "folderName": "Flora",
