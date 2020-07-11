@@ -16,4 +16,4 @@ selector.y = plant.y;
 selector.visible = true;
 objPlantManager.selectedPlant = plant;
 
-scrScrollToPlant(plant);
+//scrScrollToPlant(plant);

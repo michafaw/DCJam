@@ -88,11 +88,27 @@
             }
         },
         {
+            "Key": "23678999-b140-4f8b-a1db-c4fb14e628cd",
+            "Value": {
+                "id": "1636f36b-5897-4852-a01e-71cb8cacf466",
+                "resourcePath": "objects\/objMenu\/objMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f82e161-8c5d-422a-8802-c1c2624d98ae",
             "Value": {
                 "id": "4b815b3a-7c52-4b0b-9651-31409e9ff1c0",
                 "resourcePath": "objects\/objSelector\/objSelector.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3eb22c4a-032e-4688-b2c5-aacf5ff8e681",
+            "Value": {
+                "id": "1c0eeca6-0058-4566-b7df-e1f03b101601",
+                "resourcePath": "scripts\/scrScrollToXY\/scrScrollToXY.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -261,6 +277,14 @@
                 "id": "9441d75e-17c3-4346-b67c-29c79057d7ce",
                 "resourcePath": "views\/8fbd82f5-5f03-41d7-80b5-ed8e182f930d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "92955a53-38e9-4760-ab16-7fdb47076e4e",
+            "Value": {
+                "id": "77544f00-0033-4e09-a70b-2058baa43928",
+                "resourcePath": "objects\/objCameraManager\/objCameraManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -501,6 +525,7 @@
         "bfd2dbf3-68e3-46e8-8032-a89ca99bb577",
         "83b9e613-63e1-43c2-bd6c-dae454855536",
         "ee056d28-fc6d-41cb-8683-ed65bb5614cf",
+        "3eb22c4a-032e-4688-b2c5-aacf5ff8e681",
         "1907d9a4-1d09-4e74-92d3-d1300fa034d1",
         "6480cda8-6737-40e9-830e-60ac3c63949d",
         "dcd49291-4e73-4247-b7e5-58c7f960b0da"
