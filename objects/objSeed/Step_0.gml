@@ -10,6 +10,8 @@ zz -= sinkSpeed;
 x = round(xx)
 y = round(yy);
 
+depth = layer_get_depth(layer) - y; // The layer depths have been spaced out enough for this to work
+
 if(zz <= 0) {
 	scrCreatePlantAt(x, y);
 	instance_destroy();
