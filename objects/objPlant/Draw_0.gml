@@ -3,8 +3,8 @@
 
 var baseSprite = sprBase;
 var stalkSprite = sprStalk;
-var leavesSprite = sprLeaves;
-var headSprite = sprFlower;
+var leavesSprite = sprEmptyPart;
+var headSprite = sprHead;
 
 var baseColor = c_white;
 var stalkColor = c_white;

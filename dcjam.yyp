@@ -179,7 +179,7 @@
             "Key": "7f7f4b34-0e6b-4bc5-a83a-f070286d4766",
             "Value": {
                 "id": "4d3e6276-2b57-4805-a98b-1cdce8f124e7",
-                "resourcePath": "sprites\/sprFlower\/sprFlower.yy",
+                "resourcePath": "sprites\/sprHead\/sprHead.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -333,6 +333,14 @@
                 "id": "9f9b6283-6fda-410e-bb4b-15a3f4fa87a2",
                 "resourcePath": "objects\/objPlantManager\/objPlantManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cfb90547-c30c-4a71-a179-13f862cb3476",
+            "Value": {
+                "id": "841f13ff-cd2b-4485-b448-72b0d6bf08c7",
+                "resourcePath": "sprites\/sprEmptyPart\/sprEmptyPart.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

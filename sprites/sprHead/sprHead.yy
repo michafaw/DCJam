@@ -2,7 +2,7 @@
     "id": "7f7f4b34-0e6b-4bc5-a83a-f070286d4766",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprFlower",
+    "name": "sprHead",
     "For3D": false,
     "HTile": false,
     "VTile": false,
