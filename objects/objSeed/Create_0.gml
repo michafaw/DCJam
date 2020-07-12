@@ -4,4 +4,6 @@
 xx = 0.0;
 yy = 0.0;
 zz = 0.0; // height above the ground
-sinkSpeed = 3.0/room_speed; // pixels per second
+sinkSpeed = 6.0/room_speed; // pixels per second
+
+image_index = irandom(image_number)

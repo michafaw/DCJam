@@ -7,3 +7,4 @@ var yy = argument1;
 
 var newPlant = instance_create_layer(xx, yy, "OutOfGround", objPlant);
 newPlant.depth -= yy; // The layer depths have been spaced out enough for this to work
+newPlant.age = 0;
