@@ -12,9 +12,14 @@ while(age > timeInLifeStage[stage]) {
 	if(stage > REGROW) {
 		stage = ADULT;
 		age = timeInLifeStage[ADULT-1];
+		rebirths++;
 		break;
 	}
 }
+
+// Override to make all plants user-click to seed
+//if(didChangeStage && prevStage == FRUITING)
+//	didChangeStage = false;
 
 if(didChangeStage) {
 	if(prevStage == FRUITING){
@@ -24,9 +29,16 @@ if(didChangeStage) {
 	
 	baseSprites = [sprEmptyPart, sprEmptyPart, sprEmptyPart, sprBase, sprBase, sprBase, sprBase];
 	stalkSprites = [sprEmptyPart, sprEmptyPart, sprEmptyPart, sprStalkJuvenile, sprStalk, sprStalk, sprStalk];
-	headSprites = [sprHeadSeedling0, sprHeadSeedling1, sprHeadSeedling3, sprHeadJuvenile1, sprHead, sprHeadRipe1, sprEmptyPart];
+	headSprites = [sprHeadSeedling1, sprHeadSeedling2, sprHeadSeedling3, sprHeadJuvenile1, sprHead, sprHeadRipe1, sprEmptyPart];
 	
 	baseSprite = baseSprites[stage];
 	stalkSprite = stalkSprites[stage];
 	headSprite = headSprites[stage];	
+}
+
+if(rebirths > maxRebirths) {
+	var oldPlant = instance_create_layer(x, y, "OutOfGround", objOldPlant);
+	oldPlant.baseColor = self.baseColor;
+	scrDeselectPlant();
+	instance_destroy();
 }

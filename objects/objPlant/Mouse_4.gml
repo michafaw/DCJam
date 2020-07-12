@@ -3,9 +3,10 @@
 
 if(!self.isSelected) {
 	scrSelectPlant(self);
-} else {
+} else if(stage >= JUVENILE && stage < REGROW) {
 	// Let seeds fly
 	event_perform(ev_other, ev_user0)
 	stage = REGROW;
 	age = timeInLifeStage[REGROW-1];
+	rebirths++;
 }

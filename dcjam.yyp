@@ -216,6 +216,14 @@
             }
         },
         {
+            "Key": "7742d669-394b-49ee-aa80-793a36760381",
+            "Value": {
+                "id": "280b58ea-e182-411c-9abc-4e10d0478cbf",
+                "resourcePath": "objects\/objOldPlant\/objOldPlant.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7af910a8-bd3a-4e3c-add9-197cb80052ad",
             "Value": {
                 "id": "f9c17fe8-e574-43d0-bdf8-df0b625d2a2b",

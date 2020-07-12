@@ -3,7 +3,9 @@
 
 growthRate = 0.5; // Age per step
 
-timeInLifeStage = [0, 10, 25, 45, 120, 240, 600]
+maxRebirths = 2;
+
+timeInLifeStage = [0, 10, 45, 85, 160, 300, 800]
 
 // Offset from the sprite anchor point where seed are created
 seedDropX = 0;
@@ -14,6 +16,7 @@ seedDropYRange = 16;
 seedDropZRange = 20;
 
 age = 0;
+rebirths = 0;
 isSelected = false;
 stage = SEEDLING0;
 
