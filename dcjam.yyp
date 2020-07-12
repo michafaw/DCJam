@@ -40,6 +40,14 @@
             }
         },
         {
+            "Key": "04f148d3-5e6a-486a-80cd-6937a3f0c4b5",
+            "Value": {
+                "id": "2c11e1d3-86c6-4e4f-8f7b-0e825087e685",
+                "resourcePath": "objects\/objRoomManager\/objRoomManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a2b0a0f-281c-4ae6-ad34-2bdf473babe4",
             "Value": {
                 "id": "11f1ea9e-6901-44d6-8bb3-051127825bc5",
@@ -93,6 +101,14 @@
                 "id": "1636f36b-5897-4852-a01e-71cb8cacf466",
                 "resourcePath": "objects\/objMenu\/objMenu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2b0b6aa5-4303-4d0b-8993-f284e2008309",
+            "Value": {
+                "id": "eff228e6-c590-4de4-b14b-f3f912c21bda",
+                "resourcePath": "sounds\/sndMusic2\/sndMusic2.yy",
+                "resourceType": "GMSound"
             }
         },
         {

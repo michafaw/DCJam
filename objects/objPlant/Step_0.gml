@@ -29,7 +29,7 @@ if(didChangeStage) {
 	
 	baseSprites = [sprEmptyPart, sprEmptyPart, sprEmptyPart, sprBase, sprBase, sprBase, sprBase];
 	stalkSprites = [sprEmptyPart, sprEmptyPart, sprEmptyPart, sprStalkJuvenile, sprStalk, sprStalk, sprStalk];
-	headSprites = [sprHeadSeedling1, sprHeadSeedling2, sprHeadSeedling3, sprHeadJuvenile1, sprHead, sprHeadRipe1, sprEmptyPart];
+	headSprites = [sprHeadSeedling1, sprHeadSeedling2, sprHeadSeedling3, choose(sprHeadJuvenile1, sprHeadJuvenile2), sprHead, choose(sprHeadRipe1, sprHeadRipe2), sprEmptyPart];
 	
 	baseSprite = baseSprites[stage];
 	stalkSprite = stalkSprites[stage];
