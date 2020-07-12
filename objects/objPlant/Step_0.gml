@@ -2,6 +2,8 @@
 // You can write your code in this editor
 
 age += growthRate;
+
+show_debug_message("Plant age: " + string(age) + ", stage: " + string(stage));
 var prevStage = stage;
 
 var didChangeStage = false;

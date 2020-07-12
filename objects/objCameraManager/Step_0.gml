@@ -10,8 +10,8 @@ var cameraYAdj = camera_get_view_y(view_camera[0]) + cameraHeight/2;
 
 var cameraDistance = point_distance(cameraXAdj, cameraYAdj, cameraTargetX, cameraTargetY)
 
-show_debug_message("cameraDistance = " + string(cameraDistance));
-show_debug_message("cameraPos = (" + string(cameraXAdj) + ", " + + string(cameraYAdj) + ")");
+//show_debug_message("cameraDistance = " + string(cameraDistance));
+//show_debug_message("cameraPos = (" + string(cameraXAdj) + ", " + + string(cameraYAdj) + ")");
 
 
 if(cameraDistance > 0) {
